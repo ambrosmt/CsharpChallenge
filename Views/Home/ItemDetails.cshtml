@@ -1,0 +1,22 @@
+@model ItemDetailsViewModel
+
+<div class="row">
+    <h2>@Model.AuctionItem.ItemName</h2> <h4>For sale from: @Model.AuctionItem.CreatedBy.FirstName</h4>
+</div>
+<div class="row">
+    <h4>Time Remaining: @Model.Time</h4>
+    <hr>
+    <h4>About the item:</h4>
+    <p>@Model.AuctionItem.ItemDetails</p>
+</div>
+<hr>
+<div class="row">
+    <h4>Current Highest Bid: &nbsp $@Model.AuctionEvent.HightestBidInt &nbsp || &nbsp By: &nbsp @Model.MonieBags</h4>
+    <br>
+    <h3>@TempData["Error1"]</h3>
+    <h3>@TempData["Error2"]</h3>
+    <form action="/Bid/@Model.AuctionItem.ItemId" method="POST">
+        <input type="number" placeholder="Place Your Bid Here..." name="newBid">
+        <button type="submit" class="btn btn-default">Bid!!!</button>
+    </form>
+</div>

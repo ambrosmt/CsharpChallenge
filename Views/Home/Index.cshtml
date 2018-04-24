@@ -1,0 +1,41 @@
+﻿@model HomeIndexViewModel
+@inject UserManager<ApplicationUser> UserManager
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Current Auctions</h2>
+<div class="row">
+        <table cellpadding="10">
+            <tr>
+                <th>Product</th>
+                <th>Seller</th>
+                <th>Top Bid</th>
+                <th>Time Remaining</th>
+                <th></th>       
+            </tr>
+            @foreach (var auction in Model.Auction)
+            {
+                <tr>
+                    <td><a href="/Item/@auction.ItemId">@auction.ItemForBid.ItemName</a></td>
+                    <td>@auction.ItemForBid.CreatedBy.FirstName</td>
+                    <td>$@auction.HightestBidInt</td>
+                    <td>@{
+                        var now = DateTime.Now;
+                        var left = auction.ItemForBid.EndDate - DateTime.Now;
+                        <p>@left.ToString("g")</p>
+                    }</td>
+                    @if(UserManager.GetUserId(User) == auction.ItemForBid.CreatedBy.Id)
+                    {<td><a href="/delete/@auction.ItemId">you can delete this</a></td>}
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+<hr>
+<div>
+    <div>
+        <a href="/new">Create Auction</a>
+        <p>Your Current Wallet: $ @ViewBag.User.Wallet</p>
+    </div>
+</div>

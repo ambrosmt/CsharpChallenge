@@ -1,0 +1,12 @@
+C:\Users\Matthew\DojoAssignments\cSharp\Exam\Three\Alpha_Sharp\bin\Debug\netcoreapp2.0\app.db
+C:\Users\Matthew\DojoAssignments\cSharp\Exam\Three\Alpha_Sharp\bin\Debug\netcoreapp2.0\Alpha_Sharp.deps.json
+C:\Users\Matthew\DojoAssignments\cSharp\Exam\Three\Alpha_Sharp\bin\Debug\netcoreapp2.0\Alpha_Sharp.runtimeconfig.json
+C:\Users\Matthew\DojoAssignments\cSharp\Exam\Three\Alpha_Sharp\bin\Debug\netcoreapp2.0\Alpha_Sharp.runtimeconfig.dev.json
+C:\Users\Matthew\DojoAssignments\cSharp\Exam\Three\Alpha_Sharp\bin\Debug\netcoreapp2.0\Alpha_Sharp.dll
+C:\Users\Matthew\DojoAssignments\cSharp\Exam\Three\Alpha_Sharp\bin\Debug\netcoreapp2.0\Alpha_Sharp.pdb
+C:\Users\Matthew\DojoAssignments\cSharp\Exam\Three\Alpha_Sharp\obj\Debug\netcoreapp2.0\Alpha_Sharp.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\DojoAssignments\cSharp\Exam\Three\Alpha_Sharp\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Matthew\DojoAssignments\cSharp\Exam\Three\Alpha_Sharp\obj\Debug\netcoreapp2.0\Alpha_Sharp.AssemblyInfoInputs.cache
+C:\Users\Matthew\DojoAssignments\cSharp\Exam\Three\Alpha_Sharp\obj\Debug\netcoreapp2.0\Alpha_Sharp.AssemblyInfo.cs
+C:\Users\Matthew\DojoAssignments\cSharp\Exam\Three\Alpha_Sharp\obj\Debug\netcoreapp2.0\Alpha_Sharp.dll
+C:\Users\Matthew\DojoAssignments\cSharp\Exam\Three\Alpha_Sharp\obj\Debug\netcoreapp2.0\Alpha_Sharp.pdb
